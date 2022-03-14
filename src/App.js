@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Home from './components/Home';
 import ContactForm from './components/Contact';
+import ProjectList from './components/ProjectList';
 
 function App() {
   const [categories] = useState([
@@ -11,7 +12,6 @@ function App() {
       description: 'Michael Wegter is a full stack developer',
     },
     { name: 'Portfolio', description: 'Tech projects' },
-    { name: 'Contact', description: '' },
     { name: 'Resume', description: '' },
   ]);
 
@@ -32,7 +32,10 @@ function App() {
         {!contactSelected ? (
           <>
             <Home currentCategory={currentCategory}></Home>
-            <About></About>
+            
+            
+            
+            
           </>
         ) : (
           <ContactForm></ContactForm>
