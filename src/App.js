@@ -33,11 +33,6 @@ function App() {
         {!contactSelected ? (
           <>
             <Home currentCategory={currentCategory}></Home>
-            <Gallery currentCategory={currentCategory}></Gallery>
-            
-            
-            
-            
           </>
         ) : (
           <ContactForm></ContactForm>
