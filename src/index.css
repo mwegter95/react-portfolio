@@ -254,7 +254,7 @@ button {
 
 a {
   border-radius: 5px;
-  color: var(--primary);
+  color: var(--dark);
   font-weight: 600;
   padding: 2px 4px;
   margin-left: -2px;
@@ -263,4 +263,24 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+/* ---- Portfolio masonry layout ----- */
+
+.my-masonry-grid{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -30px;
+  width: auto;
+}
+
+.my-masonry-grid_column{
+  padding-left: 30px;
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column div{
+  background: rgba(242, 242, 242, 0.571);
+  margin-bottom: 30px;
 }
