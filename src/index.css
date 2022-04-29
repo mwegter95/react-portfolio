@@ -265,6 +265,13 @@ a {
   color: var(--secondary);
 }
 
+/* About Me */
+
+.about-me {
+  background-color: rgba(242, 242, 242, 0.571);
+  text-indent: 50px;
+}
+
 /* ---- Portfolio masonry layout ----- */
 
 .my-masonry-grid{
