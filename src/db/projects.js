@@ -4,6 +4,14 @@ import myWeddingImage from '../assets/images/my_wedding_login_page.jpg';
 
 const projects = [
     {
+      name: 'Tempo',
+      category: 'coding',
+      description: 'Tempo is an app for musicians to connect with other musicians through sharing their music. Tempo is built with React, GraphQL, and MongoDB.',
+      image: tempoimage,
+      alt: "screenshot of Tempo homepage",
+      link: "https://tempo-musician-search.herokuapp.com/"
+    },
+    {
       name: 'BuzzStock',
       category: 'coding',
       description: 'BuzzStock is an app that combines information from a news api and a stock info api, so it can show news and pricing for a searched ticker symbol',

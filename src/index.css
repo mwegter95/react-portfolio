@@ -239,31 +239,6 @@ textarea {
   cursor: pointer;
 }
 
-.modalBackdrop {
-  background: rgba(0, 0, 0, 0.65);
-  bottom: 0;
-  left: 0;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.modalContainer {
-  background: var(--darker);
-  border-radius: 5px;
-  max-width: 100%;
-  margin: 50px auto;
-  padding: 15px;
-  width: 960px;
-}
-
-.modalTitle {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 25px;
-}
 
 button {
   background: var(--primary);
@@ -279,7 +254,7 @@ button {
 
 a {
   border-radius: 5px;
-  color: var(--primary);
+  color: var(--dark);
   font-weight: 600;
   padding: 2px 4px;
   margin-left: -2px;
@@ -288,4 +263,31 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+/* About Me */
+
+.about-me {
+  background-color: rgba(242, 242, 242, 0.571);
+  text-indent: 50px;
+}
+
+/* ---- Portfolio masonry layout ----- */
+
+.my-masonry-grid{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -30px;
+  width: auto;
+}
+
+.my-masonry-grid_column{
+  padding-left: 30px;
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column div{
+  background: rgba(242, 242, 242, 0.571);
+  margin-bottom: 30px;
 }
