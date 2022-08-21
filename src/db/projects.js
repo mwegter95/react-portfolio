@@ -1,13 +1,14 @@
 import buzzStockImage from '../assets/images/buzzstock_screenshot.png';
-import myWeddingImage from '../assets/images/my_wedding_login_page.jpg';
-
+import myWeddingImage from '../assets/images/my_wedding_login_page.jpeg';
+import tempoImage from '../assets/images/Tempo_screenshot.png';
+import deepThoughtsImage from '../assets/images/deep_thoughts_get_one_thought.png'
 
 const projects = [
     {
       name: 'Tempo',
       category: 'coding',
       description: 'Tempo is an app for musicians to connect with other musicians through sharing their music. Tempo is built with React, GraphQL, and MongoDB.',
-      image: tempoimage,
+      image: tempoImage,
       alt: "screenshot of Tempo homepage",
       link: "https://tempo-musician-search.herokuapp.com/"
     },
@@ -33,7 +34,7 @@ const projects = [
       category: 'coding',
       description:
         'Deep Thoughts is a backend-only MongoDB project for a social app where users can share thoughts, and comment on other thoughts from different users',
-      image: {},
+      image: deepThoughtsImage,
       alt: "screenshot of Deep Thoughts api requests and responses",
       link: "https://github.com/mwegter95/deep-thoughts"
     }

@@ -8,6 +8,8 @@ const Card = ({ item: {name, category, description, image, alt, link} }) => {
         padding: "1%",
         margin: "10px",
         borderRadius: "5px",
+        overflowWrap: 'break-word'
+        
         }}>
         <h3>{name}</h3>
         <p>{category}</p>
