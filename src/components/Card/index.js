@@ -3,10 +3,10 @@ import React from 'react'
 const Card = ({ item: {name, category, description, image, alt, link} }) => {
   return (
     <div style={{
-        width: "25vw", 
+        // width: "25vw", 
         border: "1px solid white",
         padding: "1%",
-        margin: "10px",
+        // margin: "10px",
         borderRadius: "5px",
         overflowWrap: 'break-word'
         
