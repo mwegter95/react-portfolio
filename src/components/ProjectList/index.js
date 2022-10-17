@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import projects from '../../db/projects';
 import Card from '../Card';
 import Masonry from 'react-masonry-css';
@@ -14,7 +14,12 @@ if(window.innerWidth) {
 
 
 const ProjectList = () => {
-  let screenWidth = useState()
+  let [screenWidth, setScreenWidth] = useState(window.innerWidth)
+  console.log({screenWidth})
+  console.log(setScreenWidth);
+  useEffect({
+    
+  })
 
   return (
       <Masonry breakpointCols={numberOfColumns} className="my-masonry-grid" columnClassName="my-masonry-grid_column" data-testid="projectList-1">
